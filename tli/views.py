@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 def jf1(request):
     return render(request, 'jf1.html', {'active_lesson': 1})
